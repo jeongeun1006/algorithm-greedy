@@ -1,0 +1,28 @@
+//내가푼거
+
+n,m=map(int,input().split())
+count=0
+while True:
+  if n%m==0:
+    n=n//m
+    count+=1
+  elif n%m!=0:
+    n-=1
+    count+=1
+  if n==1:
+    break
+print(count)
+
+//저자
+n,k=map(int,input().split())
+result=0
+while True:
+  target=(n//k)*k
+  result+=(n-target)
+  n=target
+  if n<k:
+    break
+  result+=1
+  n//=k
+result+=(n-1)
+print(result)
