@@ -1,4 +1,4 @@
-# codingtest-greedy
+# algorithm-greedy
 # [큰 수의 법칙, biggest number]
 
 
