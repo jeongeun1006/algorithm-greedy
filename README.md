@@ -1,5 +1,5 @@
 # algorithm-greedy
-# [큰 수의 법칙, biggest number]
+# [큰 수의 법칙, largest number]
 
 
 순서대로 배열의 크기 n, 총 덧셈 횟수 m, 특정 인덱스가 연속해서 더해질 수 있는 값 n 을 입력 받는다.
