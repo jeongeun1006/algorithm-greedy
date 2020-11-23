@@ -1,5 +1,5 @@
 # codingtest-greedy
-[큰 수의 법칙, biggest number]
+# [큰 수의 법칙, biggest number]
 
 
 순서대로 배열의 크기 n, 총 덧셈 횟수 m, 특정 인덱스가 연속해서 더해질 수 있는 값 n 을 입력 받는다.
@@ -10,10 +10,10 @@
 
 일단 배열을 sort로 정렬하고 가장 큰수인 마지막 인덱스와 두번째로 큰 수인 인덱스를 first와 second로 정의해줬다.
 
-first=arr[n-1]
-
-second=arr[n-2]
-
+```
+  first=arr[n-1]
+  second=arr[n-2]
+```
 처음에는 for문을 이용하여 result에 값을 누적시키는 방법으로 구현하였다.
 
 하지만 이 방법은 m이 커진다면 시간 초과 판정을 받을 것이다.
